@@ -1,0 +1,5 @@
+	Ust siniflara eklenecek bir davranis(ornegin bir metod vasitasiyla) alt siniflarin tumunde ayni olmayabilir,
+bu durumda bu davranisin eklenmesi ve ya degistirilmesi diger siniflarada etki eder. Strategy paterni bu degisikliklerin
+diger siniflarida etkilememesini saglar. Ornekte eklenen davranis bir instance degiskeniyle ifade edilerek bu tarz problemlerin
+onune gecildi ve ayrica yurutme zamanında degisiklik yapilabilmesi saglandi. Fakat genel olarak siniflar arasinda farkli olabilen
+seylerin soyutlanmasina dayanir.
