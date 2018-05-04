@@ -1,0 +1,13 @@
+	Bir nesnenin degismesi pek cok diger nesnelerin de degismesini, guncellenmesini gerektiriyorsa
+observer paterni kullanılabilir. Ornegin binlerce stoktan olusan bir stok marketi her bir stogu 
+temsil eden nesnelere guncelleme yapmak ihtiyacı duyabilir. Burada subject-observer iliskisi soz konusudur.
+Subject, observerlara pek cok stok gonderir ve observerlar istediklerini alarak kullanirlar. 
+
+	Observer patterni sayesinde subject ve observer arasında zayif bir iliski kurulur. Yani subject,
+observerlar hakkında herhangi bir sey bilmek zorunda degildir. Fakat bu durumun bir dezavantaji vardir:
+subject alakasiz observerlara guncelleme gonderebilir. 
+
+	Toplamak gerekirse observer paterninde subject olarak adlandırılan bir nesne vardır ve bu nesne
+kendine bagli olan nesnelerin bir listesini tutar, bu nesneler ise observerlar olarak adlandirilir. Subject
+herhangi bir durum(state) degistiginde observerlara bunu bildirir, bunu genellikle observer metodlarindan
+birini cagirarak yapar. 
