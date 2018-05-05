@@ -1,0 +1,7 @@
+	Factory paterninin kullanildigi durumlarda bir metodun aynı ortak ust sinifi paylasan
+muhtemel siniflardan birisini dondurmesi gibi bir durum soz konusudur. Sinifin tipi yurutme
+zamaninda belirlenir, yani factory paterninde sinif tipi onceden belirlenmeden nesnelerin
+uretilmesi durumu vardir.
+
+	Yurutme zamaninda nesneleri uretecek ayri bir sinif tanimlanir ve bu siniftaki metod
+araciligiyla nesneler dondurulur.
