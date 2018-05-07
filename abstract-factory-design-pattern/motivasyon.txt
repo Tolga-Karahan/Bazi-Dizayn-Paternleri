@@ -1,0 +1,3 @@
+	Abstract factory paterninde soyutlama ve kapsulleme cok daha yogun kullanilir.
+Cok sayida nesnenin yurutme zamaninda eklenmesi ve ya dinamik olarak degistirilmesi soz 
+konusuysa kullanilabilir.
