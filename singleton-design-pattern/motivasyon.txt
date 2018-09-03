@@ -1,0 +1,5 @@
+	Singleton paterni birden fazla nesne uretilmesini engellemek istedigimiz zaman kullanilir.
+Ornek olarak Scrabble kullanilmistir. Tum kullanicilar ayni muhtemel harf listesini paylasirken
+her bir kullanicinin kendine ozgu bir harf listesi vardir. Yani kullanicilarin harf listesi
+tum kullanicilarin paylastigi bu ortak listeden turetilir. Tum kullanicilar paylastigi icin
+dolayisiyla bu listeyi temsil eden siniftan sadece bir tane nesne uretilmesi mantiklidir.
