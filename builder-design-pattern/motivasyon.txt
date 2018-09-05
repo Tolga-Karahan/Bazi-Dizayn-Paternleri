@@ -1,0 +1,3 @@
+	Builder paterni baska nesnelerden olusan nesneler olusturmak icin kullanilir. Nesnenin
+olusturulmasina iliskin detaylar sadece builder tarafindan bilinir ve boylece diger siniflardan
+bagimsiz olmasi saglanir.  
