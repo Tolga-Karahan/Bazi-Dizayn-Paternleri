@@ -1,0 +1,7 @@
+	Prototype paterni diğer nesneleri kopyalayarak yeni nesneler oluşturmak gerektiğinde kullanılır. 
+
+    Bilinen bir üst sınıfın herhangi bir alt sınıfının yürütme zamanında eklenmesini sağlar.
+
+    Sadece gerektiğinde yürütme zamanında kullanılacak pek çok muhtemel sınıf varsa kullanılır.
+
+    Alt sınıfların oluşturulması gerekliliğini azaltır.
