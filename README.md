@@ -1,2 +1,2 @@
 # Bazi-Dizayn-Paternleri
-Bazı dizayn paternlerinin açıklamaları ve örnekleri.
+Bazı dizayn paternlerinin açıklamaları ve basit örnekler. 
